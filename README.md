@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 FIR Intelligence and Crime Pattern Detector
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | [Kasukabe_Defense_Group] |
+| **Track** | [Intelligence, Prediction & Pattern Detection] |
+| **Team Lead** | [Shreyanshi Dixit] — [shreyanshid07@gmail.com] |
+| **Members** | [Flora], [Jeeshu Dutta], [Srishti Nidhi Dangwar] |
 
 ---
 

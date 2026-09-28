@@ -19,7 +19,14 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+[UP Police's CCTNS system holds 3+ crore digitized FIRs but has no NLP layer. Serial offenders such as the Jamtara gang evaded detection for years because inter-district FIR connections were never surfaced, and pattern analysis is entirely manual.
+
+Objective: Build a Bob-powered NLP intelligence tool that ingests batches of FIR data and:
+
+Categorizes each FIR by crime type
+Extracts named entities (accused, location, MO, victim profile)
+Detects repeat-offender signatures across FIRs
+Generates a station-level crime trend summary with a flagged repeat-offender list]
 
 ---
 
@@ -27,17 +34,17 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+[Our Bob-powered tool ingests FIRs from JSON and Excel files, validates them, and uses NLP to classify crimes, extract entities, and generate summaries and keywords. Records are stored in SQL and vector databases, enabling repeat-offender detection, cross-district FIR linking, and pattern analysis, all surfaced through a dashboard and an Ask AI assistant.]
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Feature 1:** [Multi-source FIR ingestion from JSON and Excel files, converted into one standard structure with automated validation]
+- **Feature 2:** [Bob-powered NLP that classifies crime type, extracts entities (accused, victim, location, phones, vehicles) and generates a summary and top 10 keywords for every FIR.]
+- **Feature 3:** [Repeat-offender detection and cross-district FIR linking, with fuzzy name matching and a reason and confidence score for each link.]
+- **Feature 4:** [Crime pattern analysis with a station-level trend summary and automatic alerts for offender matches and crime spikes.]
+- **Feature 5:** [Ask AI assistant that answers plain-language questions using context retrieved from both the SQL and vector databases, citing FIR numbers.]
 
 ---
 
